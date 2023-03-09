@@ -1,0 +1,25 @@
+{
+    "name": "ophaant/ctmartisan",
+    "description": "Add artisan command for make Services",
+    "type": "library",
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ophaant\\Ctmartisan\\ServiceArtisanProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ophaant\\Ctmartisan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ophaant",
+            "email": "vilfanvenci@gmail.com"
+        }
+    ],
+    "require": {}
+}
